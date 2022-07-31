@@ -1,17 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
-/* * {
-    font-family: 'Monoton', cursive;
+html {
+    background-color: black;
     
-} */
+} 
 
 header {
     font-family: 'Monoton', cursive;
-    font-size: xx-large;
+    font-size: 6rem;
+    color: #0ef8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
 }
 
 .games {
     font-family: 'Press Start 2P', 'Rubik Mono One';
-    font-size: xx-large;
+    font-size: 2rem;
     list-style: none;
+    
+    
+}
+
+hr{
+    border: 0;
+    width: 100%;
+    border-top: .6rem dotted yellow;
+    overflow: visible;
+    margin: 2rem 0;
+
+}
+
+#snakeimg {
+    width: 20%;
+}
+
+#tictactoeimg {
+    width: 20%;
+}
+
+a:link {
+    color: #0ef8f8;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#0ef8f8
 }

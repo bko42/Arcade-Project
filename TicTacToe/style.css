@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+2");
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
+
 
 * {
   font-family: "Baloo 2", cursive;
   color: white;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 body {

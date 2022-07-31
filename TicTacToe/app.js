@@ -74,6 +74,7 @@ function resetGame() {
     p2Name = ""
     p1ScoreName.innerText = "Player 1"
     p2ScoreName.innerText = "Player 2"
+    document.getElementById("playAgain").style.display = "none";
     document.getElementById("players").style.display = "block"
     board.addEventListener('click', markBox)
 
