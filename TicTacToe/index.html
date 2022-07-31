@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        
+        <div id="players">
+          Number of Players?
+          <button id="onePlayer">1 Player </button>
+          <button id="twoPlayers">2 Players</button>
+        </div>
+        <h2>
+            <button id="reset">Reset</button>
+              
+        </h2>
+        <h2 id="announce"></h2>
+        <button id="playAgain">Play Again</button>
+        <div class="scores">
+          <div id="p1"><h2><span id="p1ScoreName">Player 1</span> "X" Wins: <span id="p1xScore"></span></h2></div>
+          <div id="p2"><h2><span id="p2ScoreName">Player 2</span> "O" Wins: <span id="p2oScore"></span></h2></div>
+        </div>
+
+        <main id="board">
+            <div class="cell" id="box1" data-coordinates="0,0"></div>
+            <div class="cell" id="box2" data-coordinates="0,1"></div>
+            <div class="cell" id="box3" data-coordinates="0,2"></div>
+
+            <div class="cell" id="box4" data-coordinates="1,0"></div>
+            <div class="cell" id="box5" data-coordinates="1,1"></div>
+            <div class="cell" id="box6" data-coordinates="1,2"></div>
+      
+            <div class="cell" id="box7" data-coordinates="2,0"></div>
+            <div class="cell" id="box8" data-coordinates="2,1"></div>
+            <div class="cell" id="box9" data-coordinates="2,2"></div>
+   
+
+
+          </main>
+    </body>
+        <script src = "app.js"></script>
+</html>

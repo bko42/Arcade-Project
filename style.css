@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
+/* * {
+    font-family: 'Monoton', cursive;
+    
+} */
+
+header {
+    font-family: 'Monoton', cursive;
+    font-size: xx-large;
+    
+}
+
+.games {
+    font-family: 'Press Start 2P', 'Rubik Mono One';
+    font-size: xx-large;
+    list-style: none;
+}
